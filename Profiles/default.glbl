@@ -4,4 +4,24 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[]</initValue>
+      <name>G_run_testrail_tc_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[]</initValue>
+      <name>G_run_testrail_tc_status</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4594'</initValue>
+      <name>G_testrail_run_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Basic YXB1cnZhQHRlc3RxYTEuY29tOlRlc3RAMTIzNA=='</initValue>
+      <name>Authorization</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

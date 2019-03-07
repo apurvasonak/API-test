@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="70" tests="11" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="11" failures="0" errors="0" time="70" timestamp="2019-03-07 12:35:23" hostname="apurvas - ULTP_605.synerzipune.local" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\test\\NewProject\\API-test\\API-test\\Reports\\New Test Suite\\20190307_123518"/>
+         <property name="logFiles" value="E:\\test\\NewProject\\API-test\\API-test\\Reports\\New Test Suite\\20190307_123518\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="apurvas - ULTP_605.synerzipune.local"/>
+         <property name="hostAddress" value="172.24.7.203"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+      </properties>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:35:23 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body: Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body
+
+2019-03-07 12:35:23 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create entity with extra assumption values in API body", ["OrgId":findTestData("Create Entity").getValue(1, 1), "url3":findTestData("Create Entity").getValue(1, 1), "Authorization":Authorization])): Send request successfully
+
+2019-03-07 12:35:30 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\0.har
+
+2019-03-07 12:35:30 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:35:30 - [TEST_STEP][PASSED] - containsString(Response, "The application has encountered an error, Please retry.", false): Check contain string successfully
+
+2019-03-07 12:35:30 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:35:30 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:35:30 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:35:30 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:35:30 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:35:30 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:35:30 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:35:30 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name: Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name
+
+2019-03-07 12:35:31 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create entity with invalid-Blank entity category name", ["OrgId":findTestData("Create Entity").getValue(1, 1), "url3":findTestData("Create Entity").getValue(1, 1), "Authorization":Authorization])): Send request successfully
+
+2019-03-07 12:35:33 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\1.har
+
+2019-03-07 12:35:33 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:35:33 - [TEST_STEP][PASSED] - containsString(Response, "The application has encountered an error, Please retry.", false): Check contain string successfully
+
+2019-03-07 12:35:33 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:35:33 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:35:33 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:35:33 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:35:33 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:35:33 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:35:33 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:35:33 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body: Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body
+
+2019-03-07 12:35:33 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create entity without creation fields in API body", ["OrgId":findTestData("Create Entity").getValue(1, 1), "url3":findTestData("Create Entity").getValue(1, 1), "Authorization":Authorization])): Send request successfully
+
+2019-03-07 12:35:35 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\2.har
+
+2019-03-07 12:35:35 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:35:35 - [TEST_STEP][PASSED] - containsString(Response, "Error while creating project data", false): Check contain string successfully
+
+2019-03-07 12:35:35 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:35:35 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:35:35 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:35:35 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:35:35 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:35:35 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:35:35 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project such that calculate gets triggered" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project such that calculate gets triggered" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:35:35 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project such that calculate gets triggered: Test Cases/MercatusTestCases/ProjectTestCases/Create project such that calculate gets triggered
+
+2019-03-07 12:35:36 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project such that calculate gets triggered", ["url":findTestData("Create Entity").getValue(1, 1), "OrgId":findTestData("Create Entity").getValue(2, 1), "Authorization":Authorization])): Send request successfully
+
+2019-03-07 12:35:42 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\3.har
+
+2019-03-07 12:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:35:42 - [TEST_STEP][PASSED] - containsString(Response, "Project with matching Model", false): Check contain string successfully
+
+2019-03-07 12:35:42 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:35:42 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:35:42 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:35:42 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:35:42 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:35:42 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:35:42 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:35:42 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data: Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data
+
+2019-03-07 12:35:42 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project with incorrect assumption data", ["Authorization":Authorization, "url3":findTestData("Create Entity").getValue(1, 1), "OrgId":findTestData("Create Entity").getValue(1, 1)])): Send request successfully
+
+2019-03-07 12:35:45 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\4.har
+
+2019-03-07 12:35:45 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:35:45 - [TEST_STEP][PASSED] - containsString(Response, "The application has encountered an error, Please retry.", false): Check contain string successfully
+
+2019-03-07 12:35:45 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:35:45 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:35:45 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:35:45 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:35:45 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:35:45 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:35:45 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:35:45 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId: Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId
+
+2019-03-07 12:35:45 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project with invalid org id", ["Authorization":Authorization, "url3":findTestData("Create Entity").getValue(1, 1), "testrail_tc_id":"36505676"])): Send request successfully
+
+2019-03-07 12:35:47 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\5.har
+
+2019-03-07 12:35:47 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:35:47 - [TEST_STEP][PASSED] - containsString(Response, "Access Denied.", false): Check contain string successfully
+
+2019-03-07 12:35:47 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:35:47 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:35:47 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:35:47 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:35:47 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:35:47 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:35:47 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project with template id" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project with template id" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:35:47 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project with template id: Test Cases/MercatusTestCases/ProjectTestCases/Create project with template id
+
+2019-03-07 12:35:47 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project with template id", ["url":findTestData("Create Entity").getValue(1, 1), "OrgId":findTestData("Create Entity").getValue(2, 1), "Authorization":Authorization])): Send request successfully
+
+2019-03-07 12:35:55 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\6.har
+
+2019-03-07 12:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:35:55 - [TEST_STEP][PASSED] - containsString(Response, "Project with template id", false): Check contain string successfully
+
+2019-03-07 12:35:55 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:35:55 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:35:55 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:35:55 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:35:55 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:35:55 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:35:55 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:35:55 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions: Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions
+
+2019-03-07 12:35:56 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project without adding data for all assumptions", ["Authorization":Authorization, "OrgId":findTestData("Create Entity").getValue(1, 1), "url3":findTestData("Create Entity").getValue(1, 1)])): Send request successfully
+
+2019-03-07 12:35:58 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\7.har
+
+2019-03-07 12:35:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:35:58 - [TEST_STEP][PASSED] - containsString(Response, "The application has encountered an error, Please retry.", false): Check contain string successfully
+
+2019-03-07 12:35:58 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:35:58 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:35:58 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:35:58 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:35:58 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:35:58 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:35:58 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project without project name" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project without project name" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:35:58 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project without project name: Test Cases/MercatusTestCases/ProjectTestCases/Create project without project name
+
+2019-03-07 12:35:58 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project without project name", ["Authorization":Authorization, "url3":findTestData("Create Entity").getValue(1, 1), "OrgId":findTestData("Create Entity").getValue(2, 1)])): Send request successfully
+
+2019-03-07 12:36:07 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\8.har
+
+2019-03-07 12:36:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:36:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2019-03-07 12:36:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-07 12:36:07 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:36:07 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:36:07 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:36:07 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:36:07 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:36:07 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project without template id and auto select is OFF" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project without template id and auto select is OFF" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:36:07 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project without template id and auto select is OFF: Test Cases/MercatusTestCases/ProjectTestCases/Create project without template id and auto select is OFF
+
+2019-03-07 12:36:07 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project without template id and auto select is OFF", ["url":findTestData("Create Entity").getValue(1, 1), "OrgId":findTestData("Create Entity").getValue(2, 1), "Authorization":Authorization])): Send request successfully
+
+2019-03-07 12:36:18 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\9.har
+
+2019-03-07 12:36:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:36:18 - [TEST_STEP][PASSED] - containsString(Response, "Project without temp id autoselect is OFF", false): Check contain string successfully
+
+2019-03-07 12:36:18 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:36:18 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:36:18 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:36:18 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:36:18 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:36:18 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:36:18 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project without template id and auto select is ON" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project without template id and auto select is ON" status="PASSED">
+         <system-out><![CDATA[2019-03-07 12:36:18 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project without template id and auto select is ON: Test Cases/MercatusTestCases/ProjectTestCases/Create project without template id and auto select is ON
+
+2019-03-07 12:36:18 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project without template id and auto select is ON", ["url":findTestData("Create Entity").getValue(1, 1), "OrgId":findTestData("Create Entity").getValue(2, 1), "Authorization":Authorization])): Send request successfully
+
+2019-03-07 12:36:28 - [MESSAGE][INFO] - HAR: E:\test\NewProject\API-test\API-test\Reports\New Test Suite\20190307_123518\requests\main\10.har
+
+2019-03-07 12:36:28 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-07 12:36:28 - [TEST_STEP][PASSED] - containsString(Response, "Project with template Auto select ON", false): Check contain string successfully
+
+2019-03-07 12:36:28 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-07 12:36:28 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-07 12:36:28 - [TEST_STEP][PASSED] - try: null
+
+2019-03-07 12:36:28 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-07 12:36:28 - [TEST_STEP][PASSED] - for (def n : (0..(tc_ids.length - 1))): null
+
+2019-03-07 12:36:28 - [TEST_STEP][PASSED] - G_run_testrail_tc_id.add(tc_ids[n]): null
+
+2019-03-07 12:36:28 - [TEST_STEP][PASSED] - G_run_testrail_tc_status.add(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-07 12:35:23 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/MercatusTestCases/ProjectTestCases/Create project without template id and auto select is ON]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

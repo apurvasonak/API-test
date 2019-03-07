@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>New Test Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c9cce994-4c5a-4101-9f0a-b2d4bcfa904f</testSuiteGuid>
+   <testCaseLink>
+      <guid>b69807a6-c621-4688-8e16-10b978f87d7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create entity with extra assumption values in API body</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3e251461-b7bf-4174-a0d8-51bbe1e0c7b7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f839e79-c110-4cae-862f-391196b6546b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create entity with invalid-Blank entity category name</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>237b326e-4ef8-487e-ba03-1e391bdbeac7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eec3c7a2-a34b-45f6-8e86-a923c4767daa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create entity without creation fields in API body</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bbf4e556-56ac-4279-aab6-74a7de356f99</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>31937066-a20e-4425-b58d-6b93b0679700</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create project such that calculate gets triggered</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a05ce20-dd1d-47e7-b710-7b0c4d377375</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>395326d3-3960-48f2-bb3e-65e70d34a8f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create project with incorrect assumption data</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>140a4828-85f9-4db2-9d4b-0ae173e2278e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5d7eb4c9-a34c-4c44-b172-aa2a2f91fca0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create project with invalid OrgId</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd911067-448d-443a-a8c8-8efd6a1272fa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9bc3bc86-0b24-4b67-9b05-454aee2e6c83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create project with template id</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4768623e-8427-46cd-9b65-78ad899a9aa1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c6055c7-bb6c-4e67-8766-902251aa2636</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create project without adding data for all assumptions</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>58f5f0ad-b9de-47f6-85be-13643868f60e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>de31c99d-c686-4dec-ad7d-a511db77a212</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create project without project name</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c52f8cd-8639-4301-a950-15d211d130a2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8fdc770-79b2-4f2f-92d9-cfb64b3e2be7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create project without template id and auto select is OFF</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ddf5f658-b2e2-4bd3-b315-1daa7e3bbe24</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>54c6d647-2e5b-460f-a790-3c8a8a9512ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MercatusTestCases/ProjectTestCases/Create Entity/Create project without template id and auto select is ON</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d52421bc-3fb2-4244-8c53-65e54a297445</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

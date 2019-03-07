@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create project such that calculate gets triggered</description>
+   <name>Create project such that calculate gets triggered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7fe0486-f5be-416d-99b7-8770fd6d7f1d</testCaseGuid>
+   <variable>
+      <defaultValue>'36505669'</defaultValue>
+      <description></description>
+      <id>5a05ce20-dd1d-47e7-b710-7b0c4d377375</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>

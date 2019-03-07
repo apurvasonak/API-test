@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create project with manually selecting template id</description>
+   <name>Create project with template id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94d603d4-a12e-471c-b69d-45a92e387d6f</testCaseGuid>
+   <variable>
+      <defaultValue>'36505665'</defaultValue>
+      <description></description>
+      <id>4768623e-8427-46cd-9b65-78ad899a9aa1</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>

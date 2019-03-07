@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create project without template id and auto select is OFF</description>
+   <name>Create project without template id and auto select is OFF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10637ef0-176e-40eb-afe6-d75d31fbaabb</testCaseGuid>
+   <variable>
+      <defaultValue>'36505668'</defaultValue>
+      <description></description>
+      <id>ddf5f658-b2e2-4bd3-b315-1daa7e3bbe24</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>
